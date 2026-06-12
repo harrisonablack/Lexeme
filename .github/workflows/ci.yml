@@ -22,6 +22,6 @@ jobs:
         with:
           project: Lexeme.xcodeproj
           scheme: Lexeme
-          destination: platform=iOS Simulator,name=iPhone 17 Pro
+          destination: platform=iOS Simulator,name=Any iOS Simulator Device
           action: build
           build-settings: CODE_SIGNING_ALLOWED=NO
