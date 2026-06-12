@@ -1,0 +1,27 @@
+name: CI
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  xcode:
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Select Xcode
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+
+      - name: Build Lexeme
+        uses: sersoft-gmbh/xcodebuild-action@v4
+        with:
+          project: Lexeme.xcodeproj
+          scheme: Lexeme
+          destination: platform=iOS Simulator,name=iPhone 17 pro
+          action: build
+          build-settings: CODE_SIGNING_ALLOWED=NO
