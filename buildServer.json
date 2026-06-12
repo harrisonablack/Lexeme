@@ -12,8 +12,8 @@
 	"argv": [
 		"/opt/homebrew/bin/xcode-build-server"
 	],
-	"workspace": "/Users/harrison/repos/Dict/Dict.xcodeproj/project.xcworkspace",
-	"build_root": "/Users/harrison/Library/Developer/Xcode/DerivedData/Dict-gxkqcrwlhehdjzdkacipvvbipsqd",
-	"scheme": "Dict",
+	"workspace": "/Users/harrison/repos/Lexeme/Lexeme.xcodeproj/project.xcworkspace",
+	"build_root": "/Users/harrison/Library/Developer/Xcode/DerivedData/Lexeme-cvtyivtigvlnwacfxensvxixccja",
+	"scheme": "Lexeme",
 	"kind": "xcode"
 }
