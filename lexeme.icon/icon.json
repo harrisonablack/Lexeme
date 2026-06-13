@@ -1,7 +1,5 @@
 {
-  "fill" : {
-    "automatic-gradient" : "extended-srgb:0.00000,0.53333,1.00000,1.00000"
-  },
+  "fill" : "system-dark",
   "groups" : [
     {
       "layers" : [
@@ -11,7 +9,7 @@
           "image-name" : "book.pages.svg",
           "name" : "book.pages",
           "position" : {
-            "scale" : 2,
+            "scale" : 2.4,
             "translation-in-points" : [
               0,
               0
